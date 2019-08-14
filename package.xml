@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Rcg_Custombundle</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Show custom attribute in bundle products drop down menu</summary>
+    <description>Show custom attribute in bundle products drop down menu</description>
+    <notes>Added options to remove price and stock quantity.</notes>
+    <authors><author><name>admin</name><user>auto-converted</user><email>admin@rcgear.co.za</email></author></authors>
+    <date>2010-06-29</date>
+    <time>11:23:09</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Rcg_Custombundle.xml" hash="9a3656f736eb453d2c8007c6416e4755"/></dir></target><target name="magecommunity"><dir name="Rcg"><dir name="Custombundle"><dir name="Block"><dir name="Catalog"><dir name="Product"><dir name="View"><dir name="Type"><dir name="Bundle"><file name="Option.php" hash="ee99120d21b3ea54252a05a17b47b48c"/><file name="Select.php" hash="8a2a61da290ced56ecaffaa6dfc7ef1e"/></dir></dir></dir></dir></dir></dir><dir name="etc"><file name="config.xml" hash="c74f55f61c7f4101c5295e49e0a271bf"/><file name="system.xml" hash="d38e2c55678059b964214b3af0c5f56c"/></dir><dir name="Helper"><file name="Data.php" hash="814c86d10a31e59763da1383f2569538"/></dir><dir name="Model"><file name="Price.php" hash="baec5e2cb80448f0910ae17281899c76"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>

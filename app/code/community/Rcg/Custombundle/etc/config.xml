@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+          <modules>
+              <Rcg_Custombundle>
+                 <version>0.1.0</version>
+              </Rcg_Custombundle>
+          </modules>
+          
+            <global>
+    
+              <models>
+                <catalog>
+                  <rewrite>
+                    <product_type_pricew>Rcg_Custombundle_Model_Price</product_type_pricew>
+                    
+                  </rewrite>
+                </catalog>
+              </models>
+           <!-- Mage_Catalog_Model_Product_Type_Price -->
+           
+        
+              <blocks>
+                  <bundle>
+                      <rewrite>
+                                  <!--  Mage_Bundle_Block_Catalog_Product_View_Type_Bundle_Option -->
+                                <catalog_product_view_type_bundle_option_select>Rcg_Custombundle_Block_Catalog_Product_View_Type_Bundle_Option</catalog_product_view_type_bundle_option_select>
+                    </rewrite>
+                 
+                   
+                  </bundle>
+                 
+              </blocks>
+              
+              
+                 <helpers>
+      	             <custombundle>
+                      <class>Rcg_Custombundle_Helper</class>
+                     </custombundle>
+    	         </helpers>
+
+          </global>
+    
+    	
+    
+    <adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <RCG_options>
+                                            <title>RCG Bundle Options</title>
+                                        </RCG_options>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+
+      
+</config>
+      
+      
