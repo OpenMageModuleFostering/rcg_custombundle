@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Rcg_Custombundle",
+    "name": "OpenMageModuleFostering\/Rcg_Custombundle",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "Show custom attribute in bundle products drop down menu",
     "authors": [
-    {
-        "name": "admin",
-        "email": "admin@rcgear.co.za"
-    }
-],
+        {
+            "name": "admin",
+            "email": "admin@rcgear.co.za"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
